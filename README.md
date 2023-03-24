@@ -150,11 +150,11 @@ Thank you for effort you invested in this Project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Peter-Dumbari/Microverse_project/blob/main/LICENSE) licensed.
+This project is [MIT](./https://github.com/Peter-Dumbari/Microverse_project/blob/main/LICENSE) licensed.
 
 MIT License
 
-Copyright (c) 2023 Hello Microverse Project
+Copyright (c) 2023 [Hello Microverse Project]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
