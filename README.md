@@ -1,79 +1,165 @@
-# Linters Config
+<a name="readme-top"></a>
 
-## How to use this repo? 🤔
+<div align="center">
 
-Each directory listed below contains config files specific to one programming language and README file with detailed instructions:
+  <h3><b>HELLO MICROVERSE PROJECT</b></h3>
 
-- [html&css](./html-css)
-- [html&css + javascript](./html-css-js) (for projects that require you to use both JavaScript and HTML & CSS)
-- [ruby](./ruby)
-- [ror](./ror)
-- [javascript](./javascript)
-- [react&redux](./react-redux)
+</div>
 
-Follow those instructions in order to set up linters or validators in your repo.
+# 📗 Table of Contents
 
-In order to get to know more about linters and GitHub Actions read the recap below.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-## Linters
+<!-- PROJECT DESCRIPTION -->
 
-A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs(source: [Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>)).
+# 📖 [Hello Microverse Project] <a name="about-project"></a>
 
-There are a few reasons for using linters:
+> Describe your project in 1 or 2 sentences.
 
-1. Catching syntax errors is more efficient. There is no need to debug simple mistakes like typos - the linter does it for you.
-2. The entire codebase looks like written by one person.
-3. Programmers can focus on solving problems, instead of cleaning up the code.
+**[Hello Microverse Project]** is a project given by Microverse for student as a means improving there programming skill
 
----
+## 🛠 Built With <a name="built-with">HTML AND CSS</a>
 
-You can find linters for most of the programming languages, e.g. Rubocop for Ruby or ESLint for JavaScript.
+<!-- Features -->
 
-Also, there are many ways you can integrate a linter in your workflow:
+### Key Features <a name="key-features"></a>
 
-- text editor plugin
-- GitHub Actions
-- GitHub apps
+> Describe between 1-3 key features of the application.
 
-## GitHub Actions
+- **[Google]**
+- **[Colleges]**
+- **[Microverse]**
 
-[Github Actions](https://help.github.com/en/actions) is a [CI/CD](https://codilime.com/what-is-ci-cd-all-you-need-to-know/) service offered by GitHub. It allows you to automate your workflow by letting GitHub take care of a number of tasks which can be triggered by [different of events](https://help.github.com/en/actions/reference/events-that-trigger-workflows) on the platform.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-🐛 **What to do if GitHub Actions does not work?** Check [Troubleshooting](#troubleshooting) below.
+<!-- LIVE DEMO -->
 
-You can automate tasks by creating **workflows** in your GitHub repository. GitHub will look for [YAML](https://en.wikipedia.org/wiki/YAML) files inside of the `.github/workflows` directory.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Troubleshooting
+<!-- GETTING STARTED -->
 
-Depending on the configuration of your GitHub credentials, you may have an error like this when trying to create a new GitHub Actions workflow:
+## 💻 Getting Started <a name="getting-started"></a>
 
-```
-! [remote rejected] master -> master (refusing to allow an OAuth App to create or update workflow `.github/workflows/file.yml` without `workflow` scope)
+> Describe how a new developer could make use of your project.
 
-```
+To get a local copy up and running, follow these steps.
 
-The problem is that you may be using a credentials app like [Credential Manager in Windows](https://github.com/gitextensions/gitextensions/issues/4916#issuecomment-557509451) or OSX Keychain. In that case, you should [setup a personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and configure it in your credentials app. Make sure to check the `workflow` permissions when you setup your personal access token.
+### Prerequisites
 
-If you had a different problem related to a specific tool, please check detailed instructions for each linter:
+In order to run this project you need:
 
-- [html&css](./html-css#troubleshooting)
-- [ruby](./ruby#troubleshooting)
-- [ror](./ror#troubleshooting)
-- [javascript](./javascript#troubleshooting)
-- [react&redux](./react-redux#troubleshooting)
+cd my-folder
+git clone https://github.com/Peter-Dumbari/Microverse_project.git
+cd my-project
 
-## Validation
+### Setup
 
-Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
+Clone this repository to your desired folder:
 
-TSEs will validate that you are using the same configuration files provided here. You can check if your linter configuration is correct using the [`check-linters-config`](scripts) script.
+cd my-folder
+git clone https://github.com/Peter-Dumbari/Microverse_project.git
+cd my-project
 
-## Stickler
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This is the **GitHub Actions configuration**. If you are looking for the **Stickler configuration**, you can find it [here](https://github.com/microverseinc/linters-config/tree/Stickler).
+<!-- AUTHORS -->
 
-## Contributing
+## 👥 Authors <a name="authors">
 
-Everybody is welcome to suggest changes in linters config files.
+Peter Dumbari</a>
 
-In order to do it, fork this repository, create a new branch and open a Pull Request from your branch. A detailed description of this process: [A Step by Step Guide to Making Your First GitHub Contribution by Roshan Jossey](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940)
+> Mention all of the collaborators of this project.
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/PeterDumbari)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Fully Responsive]**
+- [ ] **[Non Traffic]**
+- [ ] **[No Developer Error]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project just drop a comment
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+Thank you for effort you invested in this Project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Who build this site]**
+
+  - [Peter Dumbari]
+
+- **[How does he toke him build it]**
+
+  - [within some hours]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
